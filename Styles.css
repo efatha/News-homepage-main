@@ -6,3 +6,36 @@
     --Efa-Dark-grayish-Blue:hsl(236, 13%, 42%);
     --Efa-Very-dark-grayish-blue:hsl(240, 100%, 5%);
 }
+.top-img{
+    min-width:320px;
+    width:650px;
+}
+h1{
+    font-size: 60px;
+    font-weight:600;
+}
+h2{
+    color:var(--Efa-Soft-orange);
+    font-size: 48px;
+}
+
+p,a{
+    color:var(--Efa-Dark-grayish-Blue);
+}
+
+a{
+    text-decoration:none;
+}
+ul{
+    margin-left: 570px;
+}
+li{
+    list-style:none;
+    padding-right:20px;
+}
+ul, a, header{
+    display:flex;
+    flex-direction: row;
+    padding-bottom: auto;
+}
+
