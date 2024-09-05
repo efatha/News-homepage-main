@@ -22,6 +22,18 @@ h2{
 p,a{
     color:var(--Efa-Dark-grayish-Blue);
 }
+.Grayish-blue{
+    color:var(--Efa-Grayish-blue);
+}
+.soft-red{
+    color:var(--Efa-Soft-red);
+}
+.Off-white{
+    color:var(--Efa-Off-White);
+}
+aside{
+    background-color:var(--Efa-Very-dark-grayish-blue);
+}
 
 a{
     text-decoration:none;
@@ -37,5 +49,17 @@ ul, a, header{
     display:flex;
     flex-direction: row;
     padding-bottom: auto;
+}
+button{
+    color:var(--Efa-Very-dark-grayish-blue);
+    border:transparent;
+    font-weight: 700;
+    width:200px;
+    height:40px;
+    background-color:var(--Efa-Soft-red);
+}
+button:hover{
+    background-color: var(--Efa-Very-dark-grayish-blue);
+    color:var(--Efa-Off-White);
 }
 
