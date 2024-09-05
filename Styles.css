@@ -31,8 +31,14 @@ p,a{
 .Off-white{
     color:var(--Efa-Off-White);
 }
+.Off-white:hover{
+    color:var(--Efa-Soft-orange);
+}
 aside{
     background-color:var(--Efa-Very-dark-grayish-blue);
+    margin-top:0px;
+    padding:20px;
+    margin-left: 20px;
 }
 
 a{
