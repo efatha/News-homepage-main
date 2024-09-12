@@ -6,6 +6,12 @@
     --Efa-Dark-grayish-Blue:hsl(236, 13%, 42%);
     --Efa-Very-dark-grayish-blue:hsl(240, 100%, 5%);
 }
+body{
+    margin-left:90px;
+    margin-right:90px;
+    margin-top:50px;
+    margin-bottom:40px;
+}
 .top-img{
     min-width:320px;
     width:650px;
@@ -40,7 +46,9 @@ aside{
     padding:20px;
     margin-left: 20px;
 }
-
+p{
+    font-size:15px;   
+}
 a{
     text-decoration:none;
 }
@@ -68,4 +76,17 @@ button:hover{
     background-color: var(--Efa-Very-dark-grayish-blue);
     color:var(--Efa-Off-White);
 }
-
+main{
+    display:flex;
+    flex-direction: row;
+}
+.textapart{
+    display:flex;
+    flex-direction: column;
+    margin-top: 70px;
+    width:300px;
+}
+.the_bright{
+    display:flex;
+    flex-direction: row;
+}
