@@ -89,12 +89,13 @@ main{
 .the_bright{
     display:flex;
     flex-direction: row;
+    justify-content: space-between;
 }
 footer{
     display:flex;
     flex-direction:row;
+    justify-content: space-around;
     padding:auto;
-    grid-column-gap: 50px;
     margin-top: 30px;
 }
 article{
