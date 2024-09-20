@@ -103,6 +103,9 @@ article{
     flex-direction: row;
     grid-column-gap: 19px;
 }
+.menu{
+    visibility:hidden;
+}
 @media (max-width:678px) {
     *{
         margin:0;
@@ -143,5 +146,43 @@ aside{
 }
 .Grayish-blue{
     padding-bottom: 20px;
+}
+footer{
+    display:flex;
+    flex-direction:column;
+    padding:auto;
+    padding: 10px;
+}
+article{
+    margin-bottom: 20px;
+}
+body {
+    padding: 10px;
+    margin: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(203, 203, 203, 0.1);
+    width: 100%;
+    max-width: 400px;
+    overflow-x: hidden;
+}
+.logo{
+    display: flex;
+    justify-content: flex-start; 
+  }
+.menu{
+  visibility: visible;
+  position: absolute;
+  left:390px;
+}
+.foot-img{
+    height:150px;
+    width: 120px;
+}
+.para{
+    padding-bottom: 20px;
+}
+.h1bright{
+    padding: 0;
+    float: left;
 }
 }
