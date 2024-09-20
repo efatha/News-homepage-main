@@ -103,3 +103,45 @@ article{
     flex-direction: row;
     grid-column-gap: 19px;
 }
+@media (max-width:678px) {
+    *{
+        margin:0;
+    }
+    ul{
+        margin-left:20px; /* this display them visible in the mobile style but here down below it should be hidden*/
+        visibility:hidden;
+        
+    }
+.top-img{
+    width:380px;
+    margin-right: 20px;
+}
+.the_bright{
+    display: flex;
+    flex-direction: column;  
+    margin-left: 40px; 
+}
+aside{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 300px;
+    right:420px;
+    width: 350px;
+    height: 420px;
+    margin-top:330px;
+    margin-bottom:300px;
+    padding:15px;
+    margin-left: 30px;
+}
+.Off-white{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.new{
+    padding-bottom: 10px;
+}
+.Grayish-blue{
+    padding-bottom: 20px;
+}
+}
