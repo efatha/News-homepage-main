@@ -94,14 +94,17 @@ main{
 footer{
     display:flex;
     flex-direction:row;
-    justify-content: space-around;
+    justify-content: space-between;
     padding:auto;
-    margin-top: 30px;
 }
 article{
     display: flex;
-    flex-direction: row;
-    grid-column-gap: 19px;
+    gap: 15px;
+}
+article img {
+    width: 100px;
+    height: 100%;
+    object-fit: cover;
 }
 .menu{
     visibility:hidden;
