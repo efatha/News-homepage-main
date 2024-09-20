@@ -116,7 +116,7 @@ article{
         
     }
 .top-img{
-    width:380px;
+    width:360px;
     margin-right: 20px;
 }
 .the_bright{
@@ -134,7 +134,7 @@ aside{
     height: 420px;
     margin-top:330px;
     margin-bottom:300px;
-    padding:15px;
+    padding:auto;
     margin-left: 30px;
 }
 .Off-white{
@@ -172,7 +172,7 @@ body {
 .menu{
   visibility: visible;
   position: absolute;
-  left:390px;
+  left:350px;
 }
 .foot-img{
     height:150px;
