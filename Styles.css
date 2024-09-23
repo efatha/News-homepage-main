@@ -109,6 +109,10 @@ article img {
 .menu{
     visibility:hidden;
 }
+.xbtn{
+    visibility: hidden;
+}
+
 @media (max-width:678px) {
     *{
         margin:0;
@@ -160,7 +164,7 @@ article{
     margin-bottom: 20px;
 }
 body {
-    padding: 10px;
+    padding-top: 35px;
     margin: auto;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(203, 203, 203, 0.1);
@@ -177,7 +181,7 @@ body {
   position: absolute;
   left:350px;
 }
-.foot-img{
+.ef01,.ef02,.ef03{
     height:150px;
     width: 120px;
 }
@@ -187,5 +191,40 @@ body {
 .h1bright{
     padding: 0;
     float: left;
+}
+/*This is the beginning of the menu display, when you click the icon menu*/
+.ul{
+    visibility: visible;
+    display:flex;
+    flex-direction: column;
+    background-color: white;
+    position:absolute;
+    right:10%;
+    bottom:20px;
+    padding-top:20px;
+    width:260px;
+    height:95%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.li0{
+    margin-top:15px;
+    padding-top:15px;
+    padding-left:auto;
+}
+.xbtn{
+    visibility: visible;
+    background-color: white;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 10vh;
+    font-weight: 100;
+}
+.xbtn:hover{
+    background-color: white;
+    color:black;
+}
+.menuPadding{
+    margin-top: 30%;
 }
 }
