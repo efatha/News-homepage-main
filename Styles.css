@@ -128,7 +128,7 @@ article img {
     ul{
         margin-left:20px; /* this display them visible in the mobile style but here down below it should be hidden*/
         visibility:hidden;
-        
+
     }
 .top-img{
     width:360px;
@@ -149,8 +149,8 @@ aside{
     height: 420px;
     margin-top:330px;
     margin-bottom:300px;
-    padding:auto;
-    margin-left: 30px;
+    padding:20px;
+    margin-left: 20px;
 }
 .Off-white{
     padding-top: 20px;
@@ -184,11 +184,13 @@ body {
     display: flex;
     justify-content: flex-start; 
   }
-.menu{
+.menu {
   visibility: visible;
+  display: flex;
   position: absolute;
-  left:350px;
-}
+  top: 20px;
+  right: 20px;
+  }
 .ef01,.ef02,.ef03{
     height:150px;
     width: 120px;
