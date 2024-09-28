@@ -17,4 +17,6 @@ function efa(){
 }
 function closeMenu() {
   document.getElementById("sidebar").style.visibility="hidden";
+  document.getElementById("sidebar").style.transform ="translateX(100%)";
+  document.getElementById("mySidebar").style.visibility="visible";
 }

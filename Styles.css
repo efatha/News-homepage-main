@@ -151,7 +151,7 @@ aside{
     height: 420px;
     margin-top:330px;
     margin-bottom:300px;
-    padding:20px;
+    padding:15px;
     margin-left: 30px;
 }
 .Off-white{
@@ -192,7 +192,7 @@ body {
   visibility: visible;
   display: flex;
   position: absolute;
-  top: 20px;
+  top: 40px;
   right: 20px;
   }
 .ef01,.ef02,.ef03{
