@@ -21,12 +21,14 @@ header{
     padding-bottom: 35px;
 }
 h1{
-    font-size: 60px;
-    font-weight:600;
+    font-family: Inter ExtraBold;
 }
 h2{
     color:var(--Efa-Soft-orange);
     font-size: 48px;
+}
+h3{
+    font-family: Inter;
 }
 
 p,a{
@@ -37,6 +39,7 @@ p,a{
 }
 .soft-red{
     color:var(--Efa-Soft-red);
+    font-family: Inter;
 }
 .Off-white{
     color:var(--Efa-Off-White);
@@ -77,6 +80,7 @@ button{
     color:var(--Efa-Very-dark-grayish-blue);
     border:transparent;
     font-weight: 700;
+    font-family: Inter Thin;
     width:200px;
     height:40px;
     background-color:var(--Efa-Soft-red);
@@ -126,11 +130,25 @@ article img {
     object-fit: cover;
 }
 @media (min-width:1200px) {
+    ul{
+        margin-left:500px;
+    }
     .foot-img{
-        width: 240px;
+        width: 190px;
         height: 100%;
         object-fit: cover;
-    }  
+    } 
+    .para,button{
+        position:relative;
+        left:55px;
+    } 
+    button{
+        top: 20px;
+    }
+    aside{
+        position:relative;
+        left:20px;
+    }
 }
 
 .menu{
@@ -163,7 +181,7 @@ aside{
     display: flex;
     flex-direction: column;
     position: relative;
-    top: 280px;
+    top: 250px;
     right:430px;
     width: 350px;
     height: 420px;
@@ -223,10 +241,17 @@ body {
 }
 .para{
     padding-bottom: 20px;
+    position:relative;
+    right:45px;
+    width:290px;  
 }
 .h1bright{
     padding: 0;
     float: left;
+}
+h1{
+    position:relative;
+    right:20px;
 }
 /*This is the beginning of the menu display, when you click the icon menu*/
 .ul{
@@ -235,13 +260,14 @@ body {
     flex-direction: column;
     background-color: white;
     position:absolute;
-    right:10%;
-    bottom:20px;
+    right:9%;
+    bottom:7px;
     padding-top:20px;
     width:260px;
     height:95%;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 1;
 }
 .li0{
     margin-top:15px;
@@ -262,5 +288,10 @@ body {
 }
 .menuPadding{
     margin-top: 30%;
+}
+button{
+    position: relative;
+    top: 10px;
+    right: 50px;
 }
 }
