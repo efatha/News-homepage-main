@@ -161,16 +161,27 @@ article img {
 @media (max-width:678px) {
     *{
         margin:0;
+       /* */
     }
+    html{
+        overflow-x: hidden;
+    }
+    .top-img{
+        width:100px;
+        margin-right: 10px;
+        margin-left: 20px;
+    }
+    
     ul{
         margin-left:20px; /* this display them visible in the mobile style but here down below it should be hidden*/
         visibility:hidden;
 
     }
 .top-img{
-    width:360px;
-    margin-right: 20px;
-    margin-left: 20px;
+    width:80%;
+    height:250px;
+    margin-right: 10px;
+    margin-left: 10px;
 }
 .the_bright{
     display: flex;
@@ -192,7 +203,7 @@ aside{
     padding-top:20px;
     padding-bottom:40px;
     justify-content: center;
-    width: 330px;
+    width: 270px;
 }
 .Off-white{
     padding-top: 20px;
@@ -294,4 +305,19 @@ button{
     top: 10px;
     right: 50px;
 }
+.attribution {
+    font-size: 12px;
+    text-align: center;
+    display: flex;
+    position:absolute;
+    color: var(--Efa-Soft-red);
+    text-indent: 1px;
+    padding-bottom: 10px;
+    font-family: Inter Thin;
+
+    }
+    .attribution a{
+        color:var(--Efa-Very-dark-grayish-blue);
+        font-family: Inter bold;
+    }
 }
