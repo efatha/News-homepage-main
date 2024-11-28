@@ -10,6 +10,7 @@ body{
     margin-left:90px;
     margin-right:90px;
     margin-top:50px;
+    transition: all ease-in-out 0.7s;
     margin-bottom:40px;
 }
 .top-img{
@@ -58,7 +59,8 @@ aside{
     width: 270px;
 }
 p{
-    font-size:15px;   
+    font-size:15px; 
+    font-family: inter;  
 }
 a{
     text-decoration:none;
@@ -134,10 +136,17 @@ article img {
         margin-left:500px;
     }
     .foot-img{
-        width: 190px;
-        height: 100%;
+        margin-top:50px;
+        width: 35%;
+        height: 70%;
         object-fit: cover;
     } 
+    article p{
+        width:220px;
+    }
+    .soft-red{
+       margin-bottom:-10px;
+    }
     .para,button{
         position:relative;
         left:55px;
