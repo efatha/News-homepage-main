@@ -7,15 +7,15 @@
     --Efa-Very-dark-grayish-blue:hsl(240, 100%, 5%);
 }
 body{
-    margin-left:90px;
+    margin-left:120px;
     margin-right:90px;
-    margin-top:50px;
+    margin-top:60px;
     transition: all ease-in-out 0.7s;
     margin-bottom:40px;
 }
 .top-img{
     min-width:320px;
-    width:670px;
+    width:678px;
 }
 header{
     padding-top: 10px;
@@ -67,11 +67,11 @@ a{
 }
 ul{
     margin-left: 470px;
-    gap: 6px;
+    gap: 10px;
 }
 li{
     list-style:none;
-    padding-right:20px;
+    padding-right:17px;
 }
 ul, a, header{
     display:flex;
@@ -101,8 +101,8 @@ main{
     margin-top: 20px;
     padding-left: 100px;
     position: relative;
-    right: 70px;
-    width:300px;
+    right: 100px;
+    width:350px;
 }
 .h1bright{
     font-size: 55px;
@@ -124,7 +124,8 @@ footer{
 }
 article{
     display: flex;
-    gap: 15px;
+    gap: 20px;
+    margin-right: 100px;
 }
 article img {
     width: 100px;
@@ -138,14 +139,15 @@ article img {
     .foot-img{
         margin-top:50px;
         width: 35%;
-        height: 70%;
+        height: 60%;
         object-fit: cover;
     } 
     article p{
         width:220px;
+        margin-top: -10px;
     }
     .soft-red{
-       margin-bottom:-10px;
+       margin-bottom:-20px;
     }
     .para,button{
         position:relative;
@@ -156,7 +158,7 @@ article img {
     }
     aside{
         position:relative;
-        left:20px;
+        left:-50px;
     }
 }
 
@@ -197,6 +199,10 @@ article img {
     flex-direction: column;  
     margin-left: 40px; 
 }
+.textapart{
+    right: 80px;
+    width:350px;
+}
 aside{
     display: flex;
     flex-direction: column;
@@ -205,10 +211,10 @@ aside{
     right:430px;
     width: 350px;
     height: 420px;
-    margin-top:330px;
+    margin-top:440px;
     margin-bottom:300px;
     padding:15px;
-    margin-left: auto;
+    margin-left: -50px;
     padding-top:20px;
     padding-bottom:40px;
     justify-content: center;
